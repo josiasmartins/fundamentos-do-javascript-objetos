@@ -22,10 +22,6 @@ const cliente = {
         this.saldo += valor;
     },
 };
-
-
-
-
 function oferecerSeguro(obj) {
     // Object.keys: traz todas as chaves do nosso objeto cliente
     const propsClientes = Object.keys(obj);
